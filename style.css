@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation_bar{
+    display:flex;
+    margin-left: 374pxs;
+}
+ul li {
+    color: black;
+    list-style: none;
+    font-style: normal;
+    text-decoration:none;
+    padding: 0px 10px;
+    margin: 11px 0px 10px 29px;
+    font-family:-webkit-body; 
+    cursor: pointer;
+
+}
+.book_btn{
+    background-color:  rgb(68, 177, 228);
+    border-radius: 12px;
+}
+.logo{
+    padding: 0px 302px 0px 0px;
+    margin:7px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.container{
+    height: 90vh;
+    background-color: rgb(8, 147, 240);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.wallcome{
+    font-size: 108px;
+    color: white;
+    
+}
+.btn{
+    color: white;
+    background-color: rgb(68, 177, 228);
+    border: none;
+    border-radius: 37px;
+    padding: 21px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-property: font-size;
+}
+.btn:hover{
+    background-color: rgb(81, 200, 247);
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+.para{
+    color: white;
+    margin: 31px;
+}

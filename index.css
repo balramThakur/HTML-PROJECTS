@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(235, 235, 235);
+}
+.big_container{
+    
+    
+    margin: 5px 0px 0px -6px;
+    padding: 30px 0px 0px 2px;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 540px;
+    margin: 147px 28px 0px 0px;
+}
+.container p{
+    margin: -19px 0px 0px 28px;
+    font-size: 30px;
+}
+
+.login{
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 90px 0px 0px 0px;
+    box-shadow: 1px 1px 5px 6px  rgb(216, 216, 216);
+   
+}
+
+.input_type{
+    margin: 10px 0px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 9px 2px 1px 0px;
+    padding: 4px 17px 0px 17px;
+}
+
+.input_type input{
+    padding: 14px 166px 14px 10px;;
+    margin:  6px 13px;
+    border-radius: 7px;
+    background-color: #fff;
+    border-color:rgb(7, 132, 250)  ;
+}
+
+#loginbtn{
+    /* margin: 5px 2px 0px 0px; */
+    margin: 9px 0px 0px 0px
+}
+#loginbtn button{
+    padding: 12px 160px 12px 167px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(7, 132, 250);
+    border:rgb(7, 132, 250) ;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    background-color: #fff;
+    margin: 14px 121px;
+    color: rgb(7, 132, 250) ;
+}
+.cre_btn{
+    background-color: #fff;
+}
+.cre_btn button{
+    background-color: rgb(62, 194, 62);
+    padding: 13px 6px 13px 8px;
+    margin: 22px 111px;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: bold;
+    color: #fff;
+    border-color:rgb(62, 194, 62);
+    cursor: pointer;
+}
